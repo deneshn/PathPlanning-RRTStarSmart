@@ -1,2 +1,5 @@
-# ENPM661_RRT---Smart-
+# ENPM661_RRT*---Smart-
 Implementation of RRT* - Smart algorithm
+
+In path planning, one of the most accurate, efficient and fastest algorithms to determine an obstacle free path is Rapidly Exploring Random Tree (RRT) but, it has its own limitations and hence, determining the optimal path is not assured. In order to overcome this limitation,  Rapidly Exploring Random Tree Star (RRT*) was introduced recently which claims that it converges to get an optimal solution but it takes infinite time to converge. This limitation is overcome by an extension of the RRT* which is called the RRT* - Smart that is discussed in this report. The RRT* - Smart algorithm claims to converge to determine the optimal solution not only by increasing the rate of convergence but also by reducing the time required to execute the program. In order to achieve this, this algorithm consists of a couple of new techniques that are incorporated in the RRT* which are path optimization and intelligent sampling. The results and simulations shown in this report are a comparison between the above two mentioned algorithms; RRT* and RRT* - Smart.
+
